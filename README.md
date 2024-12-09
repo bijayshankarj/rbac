@@ -1,11 +1,15 @@
 # rbac
-<---------------------------Overview--------------------------->
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!DISCLAIMER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Multiple wrong login attempts will lock the system from attempting more loggin attempts, in such a case, head to the very end of this README.
+
+<----------------------------------------Overview---------------------------------------->
 
 Project Name: User Role-Based Access Control (RBAC) System
 
 Description: This project is a role-based access control system with an admin and user interface. It uses HTML, CSS, JavaScript, and PHP for frontend and backend development. The MySQL database stores user data.
 
-<---------------------Log in Details---------------------->
+<----------------------------------Log in Details----------------------------------->
 
 For Master Admin (RBAC/index.php)
 
@@ -49,7 +53,7 @@ role:		admin
 
 
 
-<---------------------System Requirements---------------------->
+<----------------------------------System Requirements----------------------------------->
 
 PHP 7.0 or higher
 
@@ -60,7 +64,7 @@ Web server (Apache or Nginx)
 phpMyAdmin (for database management)
 
 
-<----------------------Setup Instructions---------------------->
+<-----------------------------------Setup Instructions----------------------------------->
 
 Step 1: 
 Clone or Download the Project
@@ -97,7 +101,7 @@ Start your web server and database server (e.g., XAMPP or WAMP).
 Access the project in your browser: http://localhost/[project-folder].
 
 
-<-----------------------Troubleshooting----------------------->
+<------------------------------------Troubleshooting------------------------------------>
 
 Issue: Unable to connect to the database.
 Solution: Verify the database credentials in connection.php.
@@ -109,7 +113,7 @@ Issue: PHP not working.
 Solution: Ensure PHP is installed and the server is running.
 
 
-<---------------------------API Details--------------------------->
+<----------------------------------------API Details---------------------------------------->
 
 1. 
 
@@ -210,7 +214,7 @@ edit.php
 
 
 
-<---------------------------Security Features--------------------------->
+<----------------------------------------Security Features---------------------------------------->
 
 Password Hashing:
 
@@ -255,7 +259,8 @@ Input Validation:
 Frontend and backend validations are applied to user inputs (e.g., email format, password strength) to ensure data integrity and security.
 
 
-<-------------------------------------Special Feature------------------------------------->
+<-------------------------------------Special Unlock Feature------------------------------------->
+
 Admin/User Unlock: 
 
 After multiple failed login attempts, the system is locked for 24 hours and a countdown timer is displayed on the screen as to when the user can try logging in again, in such cases, a special key is required to unlock the system without having to wait for 24 hours to try logging in again. 
