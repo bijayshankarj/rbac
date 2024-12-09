@@ -19,7 +19,7 @@ For Users (RBAC/users/index.php)
 1.
 email:		abc@xyzz.com
 
-password:	abc
+password:	7098265988
 
 role:		viewer
 
@@ -27,25 +27,25 @@ role:		viewer
 3.
 email:		ak@ak.com
 
-password:	ak
+password:	7098265988
 
 role:		admin
 
 
 5.
-email:		hmm@hmm.com
+email:		ab@ab.com
 
-password:	hmmmmmmm
+password:	7098265988
 
 role:		user
 
 
 7.
-email:		ab@ab.com
+email:		sabya@sabya.com
 
 password:	7098265988
 
-role:		role
+role:		admin
 
 
 
