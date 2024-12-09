@@ -10,20 +10,24 @@ Description: This project is a role-based access control system with an admin an
 For Master Admin (RBAC/index.php)
 email:		bijay@bijay.com
 password:	bj
+
 For Users (RBAC/users/index.php)
 1.
 email:		abc@xyzz.com
 password:	abc
 role:		viewer
+
 2.
 email:		ak@ak.com
 password:	ak
 role:		admin
-3.
+
+4.
 email:		hmm@hmm.com
 password:	hmmmmmmm
 role:		user
-4.
+
+6.
 email:		ab@ab.com
 password:	7098265988
 role:		role
