@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 09, 2024 at 04:01 PM
+-- Generation Time: Dec 09, 2024 at 07:41 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -57,18 +57,19 @@ CREATE TABLE `users` (
   `role` varchar(10) NOT NULL DEFAULT 'user',
   `email` varchar(40) NOT NULL,
   `password` text NOT NULL,
-  `status` varchar(8) NOT NULL DEFAULT 'Inactive'
+  `status` varchar(8) NOT NULL DEFAULT 'Inactive',
+  `profilePic` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 --
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `name`, `userName`, `fatherName`, `address`, `role`, `email`, `password`, `status`) VALUES
-(1, 'Bijay Shankar', 'Bijay_123456', 'Suresh J', 'vk', 'viewer', 'abc@xyzz.com', '$2y$10$czTAaifTvL4Kn0ls18cAUOq8s6QEkTIaAAJJs6r6HJKZLRhG0wTlC', 'Inactive'),
-(13, 'ak', 'ak@123', 'sj', 'vk', 'admin', 'ak@ak.com', '$2y$10$czTAaifTvL4Kn0ls18cAUOq8s6QEkTIaAAJJs6r6HJKZLRhG0wTlC', 'Inactive'),
-(14, 'Bijayy', 'hmm', 'hm', 'hm', 'user', 'hmm@hmm.com', '$2y$10$czTAaifTvL4Kn0ls18cAUOq8s6QEkTIaAAJJs6r6HJKZLRhG0wTlC', 'Inactive'),
-(16, 'ABCD', 'ABCD', 'ABCD', 'ABCD', 'user', 'ab@ab.com', '$2y$10$czTAaifTvL4Kn0ls18cAUOq8s6QEkTIaAAJJs6r6HJKZLRhG0wTlC', 'Inactive');
+INSERT INTO `users` (`id`, `name`, `userName`, `fatherName`, `address`, `role`, `email`, `password`, `status`, `profilePic`) VALUES
+(1, 'Bijay Shankar', 'Bijay_123456', 'Suresh J', 'vk', 'viewer', 'abc@xyzz.com', '$2y$10$czTAaifTvL4Kn0ls18cAUOq8s6QEkTIaAAJJs6r6HJKZLRhG0wTlC', 'Inactive', '../upload/example.png'),
+(13, 'ak', 'ak@123', 'sj', 'vk', 'admin', 'ak@ak.com', '$2y$10$czTAaifTvL4Kn0ls18cAUOq8s6QEkTIaAAJJs6r6HJKZLRhG0wTlC', 'Inactive', ''),
+(16, 'ABCD', 'ABCD', 'ABCD', 'ABCD', 'user', 'ab@ab.com', '$2y$10$czTAaifTvL4Kn0ls18cAUOq8s6QEkTIaAAJJs6r6HJKZLRhG0wTlC', 'Inactive', ''),
+(17, 'Sabya', 'sabya', 'abcd', 'Balangir', 'admin', 'sabya@sabya.com', '$2y$10$qIIyqIuf61WI6CKIMUGnl.Hr1MStjuKEhlZkejOk2EmLBQ4fKk6Fm', 'Inactive', '');
 
 --
 -- Indexes for dumped tables
@@ -100,7 +101,7 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
