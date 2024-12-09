@@ -57,7 +57,7 @@ MySQL 5.7 or higher
 
 Web server (Apache or Nginx)
 
-phpMyAdmin (optional, for database management)
+phpMyAdmin (for database management)
 
 
 <----------------------Setup Instructions---------------------->
