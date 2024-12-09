@@ -52,8 +52,11 @@ role:		admin
 <---------------------System Requirements---------------------->
 
 PHP 7.0 or higher
+
 MySQL 5.7 or higher
+
 Web server (Apache or Nginx)
+
 phpMyAdmin (optional, for database management)
 
 
