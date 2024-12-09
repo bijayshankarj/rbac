@@ -71,16 +71,19 @@ phpMyAdmin (for database management)
 
 Step 1: 
 Clone or Download the Project
+
 Clone the project repository or download and extract it.
 Place the files in your web server's root directory (e.g., htdocs for XAMPP).
 
 Step 2: 
 Configure the Database
+
 Open your MySQL server (phpMyAdmin or CLI).
 Create a new database called rbac.
 
 Step 3: 
 Import the SQL File
+
 In phpMyAdmin:
 Select the rbac database.
 Go to the Import tab.
@@ -92,6 +95,7 @@ Using MySQL CLI
 mysql -u [username] -p rbac < rbac.sql
 
 Step 4: Update Configuration
+
 Open the connection.php file.
 Replace placeholders with your database credentials (connection.php):
 $servername = "localhost";
