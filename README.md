@@ -79,7 +79,9 @@ Select the rbac database.
 Go to the Import tab.
 Choose the SQL file (rbac.sql) provided with this project.
 Click Go to import the database.
+
 Using MySQL CLI
+
 mysql -u [username] -p rbac < rbac.sql
 
 Step 4: Update Configuration
