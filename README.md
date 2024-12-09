@@ -6,6 +6,7 @@ Project Name: User Role-Based Access Control (RBAC) System
 Description: This project is a role-based access control system with an admin and user interface. It uses HTML, CSS, JavaScript, and PHP for frontend and backend development. The MySQL database stores user data.
 
 <---------------------Log in Details---------------------->
+
 For Master Admin (RBAC/index.php)
 email:		bijay@bijay.com
 password:	bj
@@ -25,6 +26,7 @@ password:	7098265988
 
 
 <---------------------System Requirements---------------------->
+
 PHP 7.0 or higher
 MySQL 5.7 or higher
 Web server (Apache or Nginx)
@@ -32,6 +34,7 @@ phpMyAdmin (optional, for database management)
 
 
 <----------------------Setup Instructions---------------------->
+
 Step 1: 
 Clone or Download the Project
 Clone the project repository or download and extract it.
