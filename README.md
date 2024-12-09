@@ -14,15 +14,19 @@ For Users (RBAC/users/index.php)
 1.
 email:		abc@xyzz.com
 password:	abc
+role:		viewer
 2.
 email:		ak@ak.com
 password:	ak
+role:		admin
 3.
 email:		hmm@hmm.com
 password:	hmmmmmmm
+role:		user
 4.
 email:		ab@ab.com
 password:	7098265988
+role:		role
 
 
 <---------------------System Requirements---------------------->
