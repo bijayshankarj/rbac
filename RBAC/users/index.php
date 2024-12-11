@@ -6,8 +6,8 @@ if (isset($_SESSION["id"])) {
 }
 
 $login_attempts_key = 'login_attempts';
-// $_SESSION["lockedfor"] = 86400;
-$_SESSION["lockedfor"] = 40;
+$_SESSION["lockedfor"] = 86400;
+// $_SESSION["lockedfor"] = 40;
 $max_attempts = 5;
 
 // Special unlock key
