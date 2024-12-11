@@ -58,7 +58,7 @@ CREATE TABLE `users` (
   `email` varchar(40) NOT NULL,
   `password` text NOT NULL,
   `status` varchar(8) NOT NULL DEFAULT 'Inactive',
-  `profilePic` text NOT NULL
+  `profilePic` text NOT NULL DEFAULT '../upload/default.jpg',
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 --
