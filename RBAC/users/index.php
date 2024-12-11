@@ -241,7 +241,7 @@ if (isset($_SESSION["timeatlock"]) && (time() - $_SESSION["timeatlock"]) < $_SES
                                 <input type="submit" class="submit" name="submit" value="Login">
                             </div>
                             <div class="signin">
-                                <!-- <span>Already have an account? <a href="#">Log in here</a></span> -->
+                                <span>Master Admin? <a href="../">Log in here</a></span>
                             </div>
                         </form>
                     </div>
