@@ -55,7 +55,7 @@ function buildTable($result, $columnsToShow)
                 // Actions column remains the same
                 $certificateId = $row['id']; // Replace 'id' with your primary key field name
                 echo "<td>";
-                if($certificateId==$_SESSION["id"]){
+                if(isset($_SESSION["id"]) && $certificateId==$_SESSION["id"]){
                     echo "<a> (YOU) </a>";
                 }else{
 
