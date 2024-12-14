@@ -18,7 +18,7 @@ For Master Admin (RBAC/index.php)
 
 email:		bijay@bijay.com
 
-password:	bj
+password:	7098265988
 
 
 For Users (RBAC/users/index.php)
@@ -50,7 +50,7 @@ role:		user
 7.
 email:		sabya@sabya.com
 
-password:	7098265988
+password:	987654321
 
 role:		admin
 
@@ -123,6 +123,9 @@ Step 5: Run the Project
 Start your web server and database server (e.g., XAMPP or WAMP).
 
 Access the project in your browser: http://localhost/[project-folder].
+
+
+TO BE ABLE TO USE THE PASSWORD RESET FUNTIONALITY, MAKE SURE YOUR (PHP MAIL) IS SET UP ALREADY.
 
 
 <------------------------------------Troubleshooting------------------------------------>
