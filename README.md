@@ -8,7 +8,7 @@ Multiple wrong login attempts will lock the system from attempting more loggin a
 
 <----------------------------------------Overview---------------------------------------->
 
-Project Name: User Role-Based Access Control (RBAC) System
+Project Name: Role-Based Access Control (RBAC) System
 
 Description: This project is a role-based access control system with an admin and user interface. It uses HTML, CSS, JavaScript, and PHP for frontend and backend development. The MySQL database stores user data.
 
