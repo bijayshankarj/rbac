@@ -125,7 +125,7 @@ Start your web server and database server (e.g., XAMPP or WAMP).
 Access the project in your browser: http://localhost/[project-folder].
 
 
-TO BE ABLE TO USE THE PASSWORD RESET FUNTIONALITY, MAKE SURE YOUR (PHP MAIL) IS SET UP ALREADY.
+TO BE ABLE TO USE THE PASSWORD RESET FUNTIONALITY, MAKE SURE YOUR (XAMPP PHP MAIL) IS SET UP ALREADY.
 
 
 <------------------------------------Troubleshooting------------------------------------>
