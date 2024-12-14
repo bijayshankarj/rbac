@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    background: url(../images/rm222-mind-16.jpg);
+    background-size: 100%;
+}
+
+.profile-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.profile-header {
+    text-align: center;
+    background: #6c63ff;
+    color: white;
+    padding: 30px 20px;
+}
+
+.avatar {
+    margin-bottom: 20px;
+}
+
+.avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.profile-header h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.profile-header p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.profile-details {
+    padding: 20px;
+}
+
+.profile-details h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #6c63ff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    width: 30%;
+    color: #6c63ff;
+}
+
+/* .logout-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #b12b2b;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #9c2424;
+} */
+.header-buttons {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.logout-button, .privilege-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #6c63ff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button {
+    background-color: #b12b2b;
+}
+
+.logout-button:hover {
+    background-color: #9c2424;
+}
+
+.privilege-button {
+    background-color: #1f7a1f;
+}
+
+.privilege-button:hover {
+    background-color: #155e15;
+}
